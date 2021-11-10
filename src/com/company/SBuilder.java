@@ -6,8 +6,11 @@ public class SBuilder {
         String str = "abcd";
         StringBuilder sb = new StringBuilder() ;
         sb.append(str);
-        System.out.println(sb);
+        System.out.println("String Builder = " + sb);
+
         sb.toString();
+
+        System.out.println("String = " + sb);
 
 
     }
