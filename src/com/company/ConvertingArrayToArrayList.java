@@ -36,7 +36,7 @@ public class ConvertingArrayToArrayList {
     private static String[] listToArray(List<String> listA) {
         //Lista do tablicy
         System.out.println("Conversion to an array");
-        //String[] array = (String[]) listA.toArray();//// po leckji
+        //String[] array = (String[]) listA.toArray();//// kod od Bartka
         String[] array = listA.toArray(new String[0]); // nowa tablica <- listaA // Dlaczego new String[0] ??
 
         System.out.println("length of array = " + array.length); // dlugosc tablicy
