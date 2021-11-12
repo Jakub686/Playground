@@ -1,6 +1,7 @@
 package com.company;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.Period;
 
 public class TImePeriod {
@@ -11,8 +12,11 @@ public class TImePeriod {
         Period everyThreeWeeks = Period.ofWeeks(1);
 
         System.out.println(everyThreeWeeks);
-        
+
         System.out.println("plusTwoDays = " + plusTwoDays);
+
+        LocalTime time = LocalTime.of(11, 12, 34);
+        System.out.println(time);
 
 
 

@@ -9,6 +9,7 @@ public class Time2 {
             LocalDate start = LocalDate.of(2015, Month.JANUARY, 1);
             LocalDate end = LocalDate.of(2015, Month.MARCH, 30);
             performAnimalEnrichment(start, end);
+            System.out.println("end");
         }
         private static void performAnimalEnrichment(LocalDate start, LocalDate end) {
             LocalDate upTo = start;
