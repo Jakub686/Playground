@@ -38,8 +38,8 @@ public class ConvertingArrayToArrayList {
         System.out.println("Conversion to an array");
 
         //Object[] array = listA.toArray();//// kod od Bartka
-        String[] array = (String[]) listA.toArray();
-        //String[] array = listA.toArray(new String[0]); // nowa tablica <- listaA // Dlaczego new String[0] ??
+        //String[] array = (String[]) listA.toArray();
+        String[] array = listA.toArray(new String[0]); // nowa tablica <- listaA // Dlaczego new String[0] ??
 
         System.out.println("length of array = " + array.length); // dlugosc tablicy
         for (String object : array) {
@@ -47,4 +47,8 @@ public class ConvertingArrayToArrayList {
         }
         return array;
     }
+
+
+
+
 }

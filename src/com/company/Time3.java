@@ -9,12 +9,15 @@ import java.time.format.FormatStyle;
 
 public class Time3 {
     public static void main(String[] args) {
-        LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
-        LocalTime time = LocalTime.of(11, 12, 34);
-        LocalDateTime dateTime = LocalDateTime.of(date, time);
-        DateTimeFormatter shortF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
-        DateTimeFormatter mediumF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
-        System.out.println(shortF.format(dateTime)); // 1/20/20 11:12 AM
-        System.out.println(mediumF.format(dateTime)); // Jan 20, 2020 11:12:34 AM
+
+
+
+        LocalDateTime currentDateTime = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+        String formattedDateTime = currentDateTime.format(formatter);
+        System.out.println("Formatted LocalDateTime : " + formattedDateTime);
+
+
+
     }
 }

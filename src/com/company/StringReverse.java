@@ -2,11 +2,11 @@ package com.company;
 
 public class StringReverse {
     public static void main(String[] args) {
-        String inPutString = "abc";
-        char tab1[] = new char[inPutString.length()];
-        char tab2[] = new char[inPutString.length()];
+        String inputString = "1234";
+        char tab1[] = new char[inputString.length()];
+        char tab2[] = new char[inputString.length()];
 
-        AssignStringToCharArray(inPutString, tab1);
+        AssignStringToCharArray(inputString, tab1);
         ReverseArray(tab1, tab2);
 
         for (char object : tab1) System.out.print(object);
