@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class PhoneExercise {
 
     public static void main(String[] args) {
-        String input = "kot";
+        String input = "hello";
         char num[] = new char[input.length()];
         ArrayList result = new ArrayList();
         for (int i = 0; i < input.length(); i++) {
@@ -123,9 +123,20 @@ public class PhoneExercise {
                     result.add('9');
                 break;
             }
-
         }
-        System.out.println(result);
+        PrintOut(input, result);
+    }
+
+    private static void PrintOut(String input, ArrayList result) {
+        System.out.println(input.toUpperCase() + " = " + result);
+        System.out.println("|     | ABC | DEF |");
+        System.out.println("|  1  |  2  |  3  |");
+        System.out.println("_________________");
+        System.out.println("| GHI | JKL | MNO |");
+        System.out.println("|  4  |  5  |  6  |");
+        System.out.println("_________________");
+        System.out.println("|PQRS | TUV |WXYZ |");
+        System.out.println("|  7  |  8  |  9  |");
     }
 
 }

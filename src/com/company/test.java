@@ -2,9 +2,11 @@ package com.company;
 
 public class test {
     public static void main(String[] args) {
-     String string = "animals";
-        System.out.println(string.substring(string.indexOf('m')));
-
-        //Methods Chaining
+        int[][] scores = new int[5][];
+        Object[][][] cubbies = new Object[3][0][5];
+        //String beans[] = new beans[6];
+        java.util.Date[] dates[] = new java.util.Date[2][];
+        //int[][] types = new int[];
+        //int[][] java = new int[][];
     }
 }
