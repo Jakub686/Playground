@@ -1,4 +1,4 @@
-package com.company;
+package com.company.C;
 
 public class C_6 {
     public static void main(String[] args) {

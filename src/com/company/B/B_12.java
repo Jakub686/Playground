@@ -1,4 +1,4 @@
-package com.company;
+package com.company.B;
 
 public class B_12 {
 

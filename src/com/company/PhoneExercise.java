@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class PhoneExercise {
 
     public static void main(String[] args) {
-        String input = "hello";
+        String input = "ab";
         char num[] = new char[input.length()];
         ArrayList result = new ArrayList();
         for (int i = 0; i < input.length(); i++) {

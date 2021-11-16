@@ -1,4 +1,4 @@
-package com.company;
+package com.company.C;
 
 public class SBuilder {
     public static void main(String[] args) {
