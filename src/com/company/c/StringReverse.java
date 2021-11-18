@@ -2,7 +2,7 @@ package com.company.c;
 
 public class StringReverse {
     public static void main(String[] args) {
-        String inputString = "abrewrewcd";
+        String inputString = "abc";
 
         char tab1[] = new char[inputString.length()];
         char tab2[] = new char[inputString.length()];
@@ -20,6 +20,8 @@ public class StringReverse {
             tab1[i] = inPutString.charAt(i);
         }
     }
+
+
     private static void ReverseArray(char[] tab1, char[] tab2) {
         int j = 0;
         for (int i = tab1.length - 1; i >= 0; i--) {

@@ -10,9 +10,10 @@ import java.util.Date;
 
 public class Time3 {
     public static void main(String[] args) throws ParseException {
-        Integer value = 19000101;
-        SimpleDateFormat originalFormat = new SimpleDateFormat("yyyyMMdd");
-        Date date = originalFormat.parse(value.toString());
+        Integer value = 210101;
+        SimpleDateFormat format = new SimpleDateFormat("yyMMdd");
+
+        Date date = format.parse(value.toString());
         System.out.println(date);
 
 
