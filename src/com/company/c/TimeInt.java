@@ -10,20 +10,25 @@ import java.util.Date;
 
 public class TimeInt {
     public static void main(String[] args) throws ParseException {
-        Integer value = 210101;
-        SimpleDateFormat format = new SimpleDateFormat("yyMMdd");
+//        Integer value = 210101;
+//        SimpleDateFormat format = new SimpleDateFormat("yyMMdd");
+//
+//        Date date = format.parse(value.toString());
+//        System.out.println(date);
 
-        Date date = format.parse(value.toString());
+
+    int x = 211132;
+    Integer xI = x;
+    SimpleDateFormat format = new SimpleDateFormat("yyMMdd");
+    Date date = format.parse(xI.toString());
         System.out.println(date);
 
+        int y = 211132;
+        String dataString;
+        dataString = toString(y);
 
 
 
-        long dat = 890201;
-        SimpleDateFormat format1 = new SimpleDateFormat("yyMMdd");
-
-        Date date1 =  format1.parse(value.toString());
-        System.out.println(date1);
 
     }
 }
