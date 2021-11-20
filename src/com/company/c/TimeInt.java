@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.Date;
 
-public class Time3 {
+public class TimeInt {
     public static void main(String[] args) throws ParseException {
         Integer value = 210101;
         SimpleDateFormat format = new SimpleDateFormat("yyMMdd");
@@ -18,7 +18,12 @@ public class Time3 {
 
 
 
-        //LocalDate datetime = LocalDate.of(year,month,day);
+
+        long dat = 890201;
+        SimpleDateFormat format1 = new SimpleDateFormat("yyMMdd");
+
+        Date date1 =  format1.parse(value.toString());
+        System.out.println(date1);
 
     }
 }
