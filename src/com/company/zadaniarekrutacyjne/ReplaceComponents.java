@@ -1,4 +1,4 @@
-package com.company;
+package com.company.zadaniarekrutacyjne;
 
 public class ReplaceComponents {
     public static void main(String[] args) {
