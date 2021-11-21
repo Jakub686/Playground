@@ -17,7 +17,7 @@ public class PlayingWithCode {
 
        //  ArrayList alist = new ArrayList();
 
-//        int a = 021989;
+//        int a = 21989;
 //        int b = 02121217;
 //        int c = 02121218;
 //        int d = 02121219;

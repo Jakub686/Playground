@@ -20,7 +20,7 @@ public class TimeDivider {
         int resultH = (all / c) / 60;
         String zero;
         if(resultM<10) { zero = "0";} else {zero = "";}
-        System.out.println("You have to study " + resultH + ":" + zero + resultM + "h per session");
+        System.out.println("You have to study " + resultH + ":" + zero + resultM + "h per session.");
     }
 }
 
