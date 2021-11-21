@@ -16,9 +16,5 @@ public class TimeInt {
         Date date = format.parse(value.toString());
         System.out.println(date);
 
-
-
-
-
     }
 }
