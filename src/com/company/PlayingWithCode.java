@@ -13,16 +13,12 @@ import java.util.List;
 
 public class PlayingWithCode {
     public static void main(String[] args) {
-
-
-       //  ArrayList alist = new ArrayList();
-
-//        int a = 21989;
-//        int b = 02121217;
-//        int c = 02121218;
-//        int d = 02121219;
-//        int e = 1111111111;
-
+        StringBuilder name = new StringBuilder();
+        speak(name);
+        System.out.println(name); // Webby
+    }
+    public static void speak(StringBuilder s) {
+        s.append("Webby");
     }
 }
 
