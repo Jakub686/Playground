@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.d.Overloading;
+
 import javax.swing.*;
 import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
@@ -13,12 +15,8 @@ import java.util.List;
 
 public class PlayingWithCode {
     public static void main(String[] args) {
-        StringBuilder name = new StringBuilder();
-        speak(name);
-        System.out.println(name); // Webby
-    }
-    public static void speak(StringBuilder s) {
-        s.append("Webby");
+        Overloading o = new Overloading();
+        System.out.println(o.sum(4.5, 6)); // wynik = 10.5
     }
 }
 
