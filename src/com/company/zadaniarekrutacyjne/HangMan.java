@@ -8,11 +8,12 @@ public class HangMan {
         Scanner sc1 = new Scanner(System.in);
         String word = sc1.next();
 
-        String wordArray[] = new String[word.length()];
+        char wordArray[] = new char[word.length()];
         for (int i = 0; i < wordArray.length ; i++) {
-           // wordArray[i] = word.charAt(i);
-            System.out.print(word.charAt(i));
+            wordArray[i] = word.charAt(i);
+            //System.out.print(wordArray[i]);
         }
+
 
 
 //        String word[] = {"a"," 'b'", "y"};
