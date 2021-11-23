@@ -15,8 +15,23 @@ import java.util.List;
 
 public class PlayingWithCode {
     public static void main(String[] args) {
-        Overloading o = new Overloading();
-        System.out.println(o.sum(4.5, 6)); // wynik = 10.5
+//        Overloading o = new Overloading();
+//        System.out.println(o.sum(4.5, 6)); // wynik = 10.5
+        String myStr = "Hello";
+        String goal = "abc";
+        System.out.println(myStr.contains("H"));
+        System.out.println(goal.contains("A"));
+
+//        char input[] = {'a', 'b', 'y'};
+//        int counter = 0;
+//        for (int i = 0; i < input.length; i++) {
+//           // if( goal.contains(input[1]) ){
+//
+//            }else {
+//                counter++;
+//            }
+//        }
+//
     }
 }
 
