@@ -1,4 +1,4 @@
-package com.company.d;
+package com.company.d.staticmethods;
 
 public class Person {
     static int COUNTER = 0;

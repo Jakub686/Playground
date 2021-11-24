@@ -12,10 +12,6 @@ public class Overloading {
     {
         return a + b;
     }
-
-//    public static void main(String[] args) {
-//        Overloading o = new Overloading();
-//        System.out.println(o.sum(4.5, 6)); // wynik = 10.5
-//    }
+    
 }
 
