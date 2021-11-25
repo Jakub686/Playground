@@ -1,5 +1,6 @@
 package com.company.zadaniarekrutacyjne;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class HangMan {
@@ -13,6 +14,7 @@ public class HangMan {
             wordArray[i] = word.charAt(i);
             //System.out.print(wordArray[i]);
         }
+        //ArrayList<char> charArrayList = new ArrayList<char>();
 
 
 
