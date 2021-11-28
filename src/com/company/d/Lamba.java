@@ -13,6 +13,9 @@ public class Lamba {
         for (Integer n: numbers) { System.out.println(n);}
 
         numbers.forEach((a) ->{System.out.println(a);});
+
+
+
     }
 
 }
