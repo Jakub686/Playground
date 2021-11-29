@@ -12,6 +12,6 @@ public class PredicateTest implements Predicate<Integer> {
     }
     public static void main(String[] args) {
         Predicate<Integer> predicate = new PredicateTest();
-        System.out.println(predicate.test(1));
+        System.out.println(predicate.test(2));
     }
 }
