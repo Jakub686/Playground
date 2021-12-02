@@ -1,12 +1,17 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class PlayingWithCode {
-    public static int sum(int a, int b){
-        return a+b;
-    }
 
     public static void main(String[] args) {
-        System.out.println(sum(2,2));
+        ArrayList  list1 = new ArrayList();
+        ArrayList  list2 = new ArrayList();
+        list1.add("100");
+        list2 = list1;
+        System.out.println(list1 + " " + list2);
+
+
     }
 }
 
