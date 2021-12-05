@@ -2,8 +2,7 @@ package com.company.d;
 
 import com.sun.xml.internal.ws.api.pipe.Engine;
 
-public class ConstructorInInheritnace {
-}
+
 
 
 class Vehicle {
@@ -23,3 +22,4 @@ class Car extends Vehicle {
         super(engine, NUMBER_OF_WHEELS);
     }
 }
+

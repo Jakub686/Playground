@@ -8,9 +8,9 @@ public class Overloading {
         return a + b;
     }
 
-    public double sum(double a, double b) // zmieniamy parametry na double
+    public double sum(int a, int b, int c) // zmieniamy parametry na double
     {
-        return a + b;
+        return c = a + b;
     }
     
 }

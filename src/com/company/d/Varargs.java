@@ -2,7 +2,7 @@ package com.company.d;
 
 public class Varargs {
     public static void main(String[] args) {
-        int result = add(2,2,1);
+        int result = add(2,2,1,3,2);
         System.out.println(result);
     }
 
