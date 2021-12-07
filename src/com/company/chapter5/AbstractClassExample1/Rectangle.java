@@ -1,4 +1,4 @@
-package com.company.chapter5.AbstractClass;
+package com.company.chapter5.AbstractClassExample1;
 
 public class Rectangle extends Shape {
     private double sideA;
