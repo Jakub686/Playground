@@ -1,27 +1,44 @@
 package com.company.chapter5.interfacesFun;
 
-interface WaterBottleInterface{
-    String color = "blue";
-    void fillUp();
-    void pourOut();
+
+interface Prey {
+    void flee();
 }
 
-public class InterfaceExample implements WaterBottleInterface {
+interface Predator {
+    void hunt();
+}
+
+class Rabbit implements Prey {
+    @Override
+    public void flee() {
+        System.out.println("*The rabbit is fleeing*");
+    }
+}
+
+class Hawk implements Predator {
+    @Override
+    public void hunt() {
+        System.out.println("*The hawk is hunting*");
+    }
+}
+
+class Fish implements Prey, Predator {
+    @Override
+    public void hunt() {
+        System.out.println("*The fish is hunting*");
+    }
+
+    @Override
+    public void flee() {
+        System.out.println("*The fish is fleeing*");
+    }
+}
+
+public class InterfaceExample {
     public static void main(String[] args) {
-        System.out.println(color);
-        InterfaceExample ex = new InterfaceExample();
-        ex.fillUp();
-
-    }
-
-    @Override
-    public void fillUp() {
-        System.out.println("It is filled");
-
-    }
-
-    @Override
-    public void pourOut() {
-
+        Fish fish = new Fish();
+        fish.hunt();
+        fish.flee();
     }
 }
