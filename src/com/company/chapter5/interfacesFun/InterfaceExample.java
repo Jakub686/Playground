@@ -3,6 +3,7 @@ package com.company.chapter5.interfacesFun;
 interface WaterBottleInterface{
     String color = "blue";
     void fillUp();
+    void pourOut();
 }
 
 public class InterfaceExample implements WaterBottleInterface {
@@ -16,6 +17,11 @@ public class InterfaceExample implements WaterBottleInterface {
     @Override
     public void fillUp() {
         System.out.println("It is filled");
+
+    }
+
+    @Override
+    public void pourOut() {
 
     }
 }
