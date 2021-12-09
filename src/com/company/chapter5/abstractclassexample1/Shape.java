@@ -1,4 +1,4 @@
-package com.company.chapter5.AbstractClassExample1;
+package com.company.chapter5.abstractclassexample1;
 
 public abstract class Shape {
     double area = -1;

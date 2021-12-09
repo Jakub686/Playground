@@ -1,4 +1,4 @@
-package com.company.chapter5.AbstractClassExample2;
+package com.company.chapter5.abstractclassexample2;
 
 abstract class Dog {
     public void bark() {
