@@ -28,7 +28,7 @@ class PdfDocument extends DocumentItem {
     }
 }
 
-public class Polimorfizm2 {
+public class PolimorfizmNaKlasie {
     public static void main(String[] args) {
 
         DocumentItem wordItem = new WordDocument();
