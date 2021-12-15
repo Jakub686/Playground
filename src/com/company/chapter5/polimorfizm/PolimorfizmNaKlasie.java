@@ -1,31 +1,21 @@
 package com.company.chapter5.polimorfizm;
 
-
 //Polimorfizm superklasa przyjmuje rozne formy w podklasach i podklasy nadpisuja (override) metody
-class DocumentItem {
-
-    public String getDescription() {
+class DocumentItem { public String getDescription() {
         return "Class representing some document.";
     }
 }
-
-class WordDocument extends DocumentItem {
-
-    public String getDescription() {
+class WordDocument extends DocumentItem { public String getDescription() {
         return "Class representing word document.";
     }
 }
 
-class ExcelDocument extends DocumentItem {
-
-    public String getDescription() {
+class ExcelDocument extends DocumentItem { public String getDescription() {
         return "Class representing calculations.";
     }
 }
 
-class PdfDocument extends DocumentItem {
-
-    public String getDescription() {
+class PdfDocument extends DocumentItem { public String getDescription() {
         return "Class representing pdf document.";
     }
 }
@@ -40,5 +30,6 @@ public class PolimorfizmNaKlasie {
         System.out.println(wordItem.getDescription());
         System.out.println(excelItem.getDescription());
         System.out.println(pdfItem.getDescription());
+
     }
 }
