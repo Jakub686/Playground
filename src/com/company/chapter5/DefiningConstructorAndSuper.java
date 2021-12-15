@@ -4,7 +4,7 @@ public class DefiningConstructorAndSuper {}
 
 class Personn
 {
-    Personn()
+     Personn()
     {
         System.out.println("Person class Constructor");
     }

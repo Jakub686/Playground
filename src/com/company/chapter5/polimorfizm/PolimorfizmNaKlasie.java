@@ -1,5 +1,7 @@
 package com.company.chapter5.polimorfizm;
 
+
+//Polimorfizm superklasa przyjmuje rozne formy w podklasach i podklasy nadpisuja (override) metody
 class DocumentItem {
 
     public String getDescription() {

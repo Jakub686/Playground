@@ -2,7 +2,7 @@ package com.company.chapter5;
 
 
 //ability to pass instances of a subclass or interface to a method parameter
-//Utworzenie metody statycznej z superklasa jako parametr po czym wowlanie tej metody z obiektami jako parametr
+//Utworzenie metody statycznej z superklasa jako parametr po czym wywolanie tej metody z obiektami jako parametr
 public class PolymorphicParameters {
 }
 
