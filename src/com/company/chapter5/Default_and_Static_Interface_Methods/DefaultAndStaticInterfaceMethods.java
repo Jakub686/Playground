@@ -7,10 +7,10 @@ interface Vehiclee {
     String getBrand();
     String speedUp();
     String slowDown();
-    default String turnAlarmOn() { return "Turning the vehicle alarm on."; }
-    default String turnAlarmOff() { return "Turning the vehicle alarm off."; }
+    default String turnAlarmOn() { return "Turning the vehicle alarm on."; }  //Default interface methods
+    default String turnAlarmOff() { return "Turning the vehicle alarm off."; }  //Default interface methods
 
-    static int getHorsePower(int rpm, int torque) { return (rpm * torque) / 5252; }
+    static int getHorsePower(int rpm, int torque) { return (rpm * torque) / 5252; } //Static interface methods
     public final static int MAX_SPEED = 200; // Interface variable by default are public final static are redundant
 }
 class Carr implements Vehiclee {
@@ -38,7 +38,7 @@ public class DefaultAndStaticInterfaceMethods {
         System.out.println(carr.slowDown());
         System.out.println(carr.turnAlarmOn());
         System.out.println(carr.turnAlarmOff());
-        Vehiclee.getHorsePower(2500, 480);
-        System.out.println(Vehiclee.MAX_SPEED);
+        Vehiclee.getHorsePower(2500, 480); //Static interface methods
+        System.out.println(Vehiclee.MAX_SPEED); //Interface variables
     }
 }
