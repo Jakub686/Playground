@@ -9,7 +9,6 @@ class Personn
         System.out.println("Person class Constructor");
     }
 }
-
 /* subclass Student extending the Person class */
 class Studentt extends Personn
 {
@@ -21,7 +20,6 @@ class Studentt extends Personn
         System.out.println("Student class Constructor");
     }
 }
-
 /* Driver program to test*/
 class Test
 {
