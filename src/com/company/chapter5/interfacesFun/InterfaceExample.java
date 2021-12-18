@@ -4,25 +4,21 @@ package com.company.chapter5.interfacesFun;
 interface Prey {
     void flee();
 }
-
 interface Predator {
     void hunt();
 }
-
 class Rabbit implements Prey {
     @Override
     public void flee() {
         System.out.println("*The rabbit is fleeing*");
     }
 }
-
 class Hawk implements Predator {
     @Override
     public void hunt() {
         System.out.println("*The hawk is hunting*");
     }
 }
-
 class Fish implements Prey, Predator {
     @Override
     public void hunt() {
@@ -34,7 +30,6 @@ class Fish implements Prey, Predator {
         System.out.println("*The fish is fleeing*");
     }
 }
-
 public class InterfaceExample {
     public static void main(String[] args) {
         Fish fish = new Fish();
