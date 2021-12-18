@@ -1,4 +1,4 @@
-package com.company.chapter5.abstractclassexample1;
+package com.company.chapter5.archive.abstractclassexample1;
 
 public class Triangle extends Shape {
     private double base;
