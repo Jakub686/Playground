@@ -1,4 +1,4 @@
-package com.company.chapter5;
+package com.company.chapter5.archive;
 
 public class DefiningConstructorAndSuper {}
 

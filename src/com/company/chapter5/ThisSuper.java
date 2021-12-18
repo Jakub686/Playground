@@ -1,5 +1,4 @@
 package com.company.chapter5;
-
 class A {
     public int x, y;
     public A(int x, int y) {
@@ -27,6 +26,6 @@ public class ThisSuper {
         B obj = new B();
         obj.print();
         obj = new B(1, 2);
-        obj.print();
+       obj.print();
     }
 }
