@@ -15,6 +15,5 @@ class ArithmeticException_Demo
     }
 }
 
-
 public class Exceptuons {
 }
