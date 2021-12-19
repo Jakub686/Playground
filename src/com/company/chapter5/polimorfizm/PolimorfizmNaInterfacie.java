@@ -1,5 +1,6 @@
 package com.company.chapter5.polimorfizm;
-//Polimorfizm Obiekty utworzone na podstawie interfejsu przyjmuja rozne formy
+//Polimorfizm Ten sam rodzaj obiektow utworzonych na podstawie interfejsu przyjmuja rozne formy.
+//
 interface PrinterService {
     void printDocument();
 }

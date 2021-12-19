@@ -1,4 +1,4 @@
-package com.company.chapter5.abstractclassexample2;
+package com.company.chapter5.AbstractClass;
 // Klasa Zawiera zwykle metody z ciałem i metody abkstrakcyjne bez ciała
 // Klasa abstrakcyjna nie tworzy obiektow, lecz mowi jak obiekty maja wygladac
 // mozna dziedziczyc tylko po jednej klasie abstrakcyjnej

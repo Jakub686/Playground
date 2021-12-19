@@ -11,6 +11,10 @@ class Dog extends Animalss {
     void makeNoise() {
         System.out.println("the dog makes noise");
     }
+
+    void makeNoise(int asdf) {
+        System.out.println("the dog makes noise");
+    }
 }
 
 public class OverRIde {

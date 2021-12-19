@@ -1,4 +1,4 @@
-package com.company.chapter5.interfacesFun;
+package com.company.chapter5.archive.interfacesFun;
 
 
 interface Prey {

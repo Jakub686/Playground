@@ -5,6 +5,8 @@ class Superclass {
 
     public int printMethod() {
         return 200;}
+
+
 }
 
 class Subclass extends Superclass {
@@ -12,6 +14,11 @@ class Subclass extends Superclass {
 
     void printNumber() {
         System.out.println(num); }
+
+
+    public Subclass(){
+
+    }
 
     void printNumberSuper() {
         System.out.println(super.num);} // super odwoluje sie do zmiennej superklasy

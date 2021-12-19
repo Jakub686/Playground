@@ -1,5 +1,4 @@
-package com.company.chapter5.Default_and_Static_Interface_Methods;
-
+package com.company.chapter5.interfacee.defalut.staticc.methods;
 //Default interface methods - mozemy utworzyc metode statyczna w interface ktora bedzie miala cialo.
 //Static interface methods - Wywoluje sie metode statyczna na interfacie a nie na objekcie
 //Interface variables - z zalozenia sa public final static i wywoluje sie je na interfacie
@@ -9,7 +8,6 @@ interface Vehiclee {
     String slowDown();
     default String turnAlarmOn() { return "Turning the vehicle alarm on."; }  //Default interface methods
     default String turnAlarmOff() { return "Turning the vehicle alarm off."; }  //Default interface methods
-
     static int getHorsePower(int rpm, int torque) { return (rpm * torque) / 5252; } //Static interface methods
     public final static int MAX_SPEED = 200; // Interface variable by default are public final static are redundant
 }
@@ -29,9 +27,8 @@ class Carr implements Vehiclee {
         return "The car is slowing down.";
     }
 }
-public class DefaultAndStaticInterfaceMethods {
+public class InterfaceDefaultStaticMethods {
     public static void main(String[] args) {
-
         Vehiclee carr = new Carr();
         System.out.println(carr.getBrand());
         System.out.println(carr.speedUp());
