@@ -20,13 +20,12 @@ public class CastingObjects {
         Machine machine1 = new Machine();
         Camera camera1 = new Camera();
         //Upcasting
-        Machine machine2 = camera1;
+        Machine machine2 = camera1; // implicitly? niejawne?
         machine2.start();
-        // error: machine2.snap();
 
         //Downcasting
         Machine machine3 = new Camera();
-        Camera camera2 = (Camera)machine3;
+        Camera camera2 = (Camera)machine3; // explicitly? jawne? rzutowanie obiektow
         camera2.start();
         camera2.snap();
     }
