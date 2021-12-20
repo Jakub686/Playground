@@ -14,7 +14,7 @@ class B1 extends A {
         System.out.println("welcome to covariant return type");
     }
 }
-public class Covaviann {
+public class Covaviant {
     public static void main(String args[]) {
         new B1().get().message();
     }
