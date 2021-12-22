@@ -2,16 +2,19 @@ package com.company;
 
 
 public class PlayingWithCode {
-    public static void main(String[] args) {
 
-
-        int i = 0;
-        int j = 1;
-        if ((i++ == 0) & (j++ == 2)) {
-            i = 12;
-        }
-
+}
+class A{
+    public static void main(String args[]){
+        A a = new A();
+        B b = new B();
+        a = b;  // 1
+        b = (B) a;  // 2
+        a = (B) b; // 3
+        b = (B) a; // 4
     }
 }
+class B extends A { }
+
 
 
