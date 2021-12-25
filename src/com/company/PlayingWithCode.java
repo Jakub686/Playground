@@ -2,17 +2,18 @@ package com.company;
 
 
 public class PlayingWithCode {
+    public static void main(String args[] ){
+        String s = "blooper";
+        StringBuilder sb = new StringBuilder(s);
+        sb.append(s.substring(4));
+        sb.delete(3, 5);
+        System.out.println(sb);
 
-        public static void main(String args[ ] ){
-            int i = 1;
-            int[] iArr = {1};
-            incr(i) ;
-            incr(iArr) ;
-            System.out.println( "i = " + i + "  iArr[0] = " + iArr [ 0 ] ) ;
-        }
-        public static void incr(int   n ) { n++ ; }
-        public static void incr(int[ ] n ) { n [ 0 ]++ ; }
+
+    }
 
 }
+
+
 
 
