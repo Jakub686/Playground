@@ -2,18 +2,18 @@ package com.company;
 
 
 public class PlayingWithCode {
-    public static void main(String args[] ){
-        String s = "blooper";
-        StringBuilder sb = new StringBuilder(s);
-        sb.append(s.substring(4));
-        sb.delete(3, 5);
-        System.out.println(sb);
-
-
-    }
-
 }
-
-
+class TestClass{
+    static int si = 10;
+    public static void main (String args[]){
+        new TestClass();
+    }
+    public TestClass(){
+        System.out.println(this);
+    }
+    public String toString(){
+        return "TestClass.si = "+this.si;
+    }
+}
 
 
