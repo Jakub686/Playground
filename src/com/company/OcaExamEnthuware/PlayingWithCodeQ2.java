@@ -1,7 +1,7 @@
-package com.company;
+package com.company.OcaExamEnthuware;
 
 
-public class PlayingWithCode {
+public class PlayingWithCodeQ2 {
  }
 
 class TestClass{

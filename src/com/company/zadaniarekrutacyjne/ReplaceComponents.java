@@ -5,7 +5,7 @@ public class ReplaceComponents {
         //        020
         //        020
         //        020
-        int tab[][] = {{0, 0, 0,}, {0, 0, 0}, {0, 0, 0}};
+        int tab[][] = {{0, 0}, {0, 0}, {0, 0}};
 
         for (int i = 0; i < tab.length; i++) {
             tab[i][1] = 2;
