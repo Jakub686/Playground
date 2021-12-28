@@ -4,18 +4,20 @@ package com.company;
 public class PlayingWithCode {
  }
 
-class TestClass{
-    public static void main(String args[] ){ A b = new B("good bye");  }
-}
-class A{
-    A() { this("hello", " world");  }
-    A(String s) { System.out.println(s); }
-    A(String s1, String s2){ this(s1 + s2); }
-}
-class B extends A{
-    B(){ super("good bye"); };
-    B(String s){ super(s, " world"); }
-    B(String s1, String s2){ this(s1 + s2 + " ! "); }
+class CorbaComponent{
+    String ior;
+    CorbaComponent(){ startUp("IOR"); }
+    void startUp(String s){ ior  =  s; }
+    void print(){ System.out.println(ior); }
 }
 
+class OrderManager extends CorbaComponent{
+    OrderManager(){  }
+    void startUp(String s){  ior = getIORFromURL(s);   }
+    String getIORFromURL(String s){  return "URL://"+s; }
+}
 
+class Application{
+    public static void main(String args[]){ start(new OrderManager()); }
+    static void start(CorbaComponent cc){ cc.print(); }
+}

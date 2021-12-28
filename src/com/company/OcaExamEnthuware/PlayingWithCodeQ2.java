@@ -1,21 +1,23 @@
 package com.company.OcaExamEnthuware;
 
 
+
+
 public class PlayingWithCodeQ2 {
  }
 
 class TestClass{
-    public static void main(String args[] ){ A b = new B("good bye");  }
+    public static void main(String args[] ){ Aaaa b = new Bbbb("good bye");  }
 }
-class A{
-    A() { this("hello", " world");  }
-    A(String s) { System.out.println(s); }
-    A(String s1, String s2){ this(s1 + s2); }
+class Aaaa{
+    Aaaa() { this("hello", " world");  }
+    Aaaa(String s) { System.out.println(s); }
+    Aaaa(String s1, String s2){ this(s1 + s2); }
 }
-class B extends A{
-    B(){ super("good bye"); };
-    B(String s){ super(s, " world"); }
-    B(String s1, String s2){ this(s1 + s2 + " ! "); }
+class Bbbb extends Aaaa{
+    Bbbb(){ super("good bye"); };
+    Bbbb(String s){ super(s, " world"); }
+    Bbbb(String s1, String s2){ this(s1 + s2 + " ! "); }
 }
 
 
