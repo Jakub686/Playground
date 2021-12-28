@@ -2,22 +2,17 @@ package com.company;
 
 
 public class PlayingWithCode {
- }
+    static int[] data = {1, 2, 3, 4, 5};
 
-class CorbaComponent{
-    String ior;
-    CorbaComponent(){ startUp("IOR"); }
-    void startUp(String s){ ior  =  s; }
-    void print(){ System.out.println(ior); }
-}
-
-class OrderManager extends CorbaComponent{
-    OrderManager(){  }
-    void startUp(String s){  ior = getIORFromURL(s);   }
-    String getIORFromURL(String s){  return "URL://"+s; }
-}
-
-class Application{
-    public static void main(String args[]){ start(new OrderManager()); }
-    static void start(CorbaComponent cc){ cc.print(); }
+    public static void main(String[] args) {
+        for (int i : data) {
+            if (i < 2) {
+                continue;
+            }
+            System.out.print(i);
+            if (i == 3) {
+                //insert code2 here
+            }
+        }
+    }
 }
