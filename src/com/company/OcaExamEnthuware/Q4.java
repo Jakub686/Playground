@@ -1,7 +1,7 @@
 package com.company.OcaExamEnthuware;
 public class Q4 {
-}
-class TestQ4{
+
+
     public static void testInts(Integer a, int b){
         a = b++;
         a++;
