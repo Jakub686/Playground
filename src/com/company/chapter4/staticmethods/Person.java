@@ -4,14 +4,16 @@ public class Person {
     static int COUNTER = 0;
     final String name;
 
-    public Person(final String name){
+    public Person(final String name) {
         this.name = name;
         COUNTER++;
     }
-    public void greet(){
+
+    public void greet() {
         System.out.println("Hello. My name is " + name + ".");
     }
-    public static int countPeople(){
+
+    public static int countPeople() {
         return COUNTER;
     }
 
@@ -20,6 +22,7 @@ public class Person {
         Person john = new Person("John");
         Person jane = new Person("Jane");
 
+        countPeople();
         john.greet();
         System.out.println("There are " + Person.countPeople() + " people.");
     }
