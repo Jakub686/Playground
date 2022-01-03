@@ -2,7 +2,12 @@ package com.company.OcaExamEnthuware;
 
 public class Q14 {
     public static void main(String[] args) {
-        String a = "abcdef";
-        System.out.println(a.charAt(3));
+        int b = 0;
+        for ( ;true; ) {
+            System.out.println('a');
+            if(b>10){break;}
+            b++;
+        }
+
     }
 }
