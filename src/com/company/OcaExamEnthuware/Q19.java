@@ -6,7 +6,7 @@ public class Q19 {
         for (int val : values) {
             int x = 0;
             while (x < values.length) {
-                System.out.println(x + " " + val);
+                System.out.println(x + " " + val + " " + values);
                 x++;
             }
         }
