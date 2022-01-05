@@ -18,3 +18,4 @@ public class Q23 {
         ct.showTwo(200);
     }
 }
+// podobne zadanie Q28
