@@ -5,7 +5,7 @@ public class Q28 {
     private int myValue = 0;
 
     public void showOne(int myValue) {
-        myValue = myValue;
+        this.myValue = myValue;
     }
 
     public void showTwo(int myValue) {
