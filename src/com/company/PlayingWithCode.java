@@ -3,19 +3,14 @@ package com.company;
 public class PlayingWithCode {
 
     public static void main(String args[ ] ){
-        int i = 0 ;
-        boolean bool1 = true;
-        boolean bool2 = false;
-        boolean bool  = false;
-        bool = (bool2 &  method1("1"));  //1
-        bool = (bool2 && method1("2"));  //2
-        bool = (bool1 |  method1("3"));  //3
-        bool = (bool1 || method1("4"));  //4
+        int i = 0;
+        int j = 1;
+        if( (i++ == 0) & (++j == 2) ){
+            i = 12;
+        }
+        System.out.println(i+" "+j);
     }
-    public static boolean method1(String str){
-        System.out.println(str);
-        return true;
-    }
+
 }
 
 
