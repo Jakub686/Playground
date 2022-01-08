@@ -21,4 +21,4 @@ public class Q28 {
     }
 }
 
-// podobne zadnie Q23
+// familiar Q23
