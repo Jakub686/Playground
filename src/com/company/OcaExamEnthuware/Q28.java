@@ -18,6 +18,7 @@ public class Q28 {
         System.out.println(ct.myValue);
         ct.showOne(100);
         System.out.println(ct.myValue);
+        System.out.println(ct.getClass());
     }
 }
 

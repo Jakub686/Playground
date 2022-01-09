@@ -1,18 +1,23 @@
 package com.company;
 
 public class PlayingWithCode {
-
-    public static void main(String args[ ] ){
-        int i = 0;
-        int j = 1;
-        if( (i++ == 0) & (++j == 2) ){
-            i = 12;
-        }
-        System.out.println(i+" "+j);
-    }
-
+}
+class A1 {
 }
 
+class AA1 extends A1 {
+}
+
+
+class TestC {
+    public static void main(String[] args) throws Exception {
+        A1 a = new A1();
+        AA1 aa = new AA1();
+        a = aa;
+        System.out.println("a = "+a.getClass());
+        System.out.println("aa = "+aa.getClass());
+    }
+}
 
 
 

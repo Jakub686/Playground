@@ -9,6 +9,7 @@ public class Q36 {
         Q36 tc = new Q36();
         tc.looper();
         System.out.println(tc.x);
+
     }
 
     public void looper(){

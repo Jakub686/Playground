@@ -17,6 +17,7 @@ class Square {
  class TestClassss {
     public static void main(String[] args) throws Exception {
         Square mysq = new Square(10);
+        //side = 10;
         mysq.color = "red";
 
         //set mysq's side to 20

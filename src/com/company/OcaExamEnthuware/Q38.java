@@ -20,6 +20,7 @@ public class Q38 {
         String[] arr = new String[2];
         ot.initData(arr);
         ot.printData(arr);
+
     }
 }
 
