@@ -1,6 +1,6 @@
 package com.company.OcaExamEnthuware;
 
-public class Q28 {
+public class Q28{
 
     private int myValue = 0;
 

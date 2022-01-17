@@ -9,7 +9,7 @@ class InitTest {
         InitTest it = new InitTest();
     }
 
-    static String s1 = sM1("a");
+    static String s1;
 
     {  // o co chodzi z tymi nawiasami
         s1 = sM1("b");
@@ -17,6 +17,10 @@ class InitTest {
 
     static {
         s1 = sM1("c");
+    }
+
+    public InitTest() {
+        System.out.println("constructor");
     }
 
     private static String sM1(String s) {
