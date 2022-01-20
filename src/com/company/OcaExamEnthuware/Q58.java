@@ -8,8 +8,9 @@ public class Q58 {
     }
 
     public Q58() {
-        System.out.println(this);
+        System.out.println(this);// o co chodzi tutaj ze slowem this?
     }
+
 
     public String toString() {
         return "TestClass.si = " + this.si;
