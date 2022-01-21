@@ -1,6 +1,6 @@
 package com.company.OcaExamEnthuware;
 
-public class Q28{
+public class Q28 {
 
     private int myValue = 0;
 
@@ -9,7 +9,7 @@ public class Q28{
     }
 
     public void showTwo(int myValue) {
-        this.myValue = myValue;
+        myValue = myValue;
     }
 
     public static void main(String[] args) {
