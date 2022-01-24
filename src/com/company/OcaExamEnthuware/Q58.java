@@ -4,7 +4,7 @@ public class Q58 {
     static int si = 10;
 
     public static void main(String args[]) {
-        new TestClass();
+        new Q58();
     }
 
     public Q58() {

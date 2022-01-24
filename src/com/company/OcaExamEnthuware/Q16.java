@@ -13,7 +13,7 @@ class TestClassa{
     public static void main(String[] args){
         Wrapper w = new Wrapper();
         w.w = 20;
-        changeWrapper(w);
+        changeWrapper(w); //
         w.w += 30;
         System.out.println(w.w);
         w = changeWrapper(w);
