@@ -5,11 +5,9 @@ import java.util.List;
 
 public class PlayingWithCode {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-
-
+        StringBuilder sb = new StringBuilder(100);
+        System.out.println(sb.length() + ":" + sb.toString().length());
     }
-
 }
 
 
