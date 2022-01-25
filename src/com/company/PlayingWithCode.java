@@ -1,13 +1,11 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PlayingWithCode {
     public static void main(String[] args) {
-        int i = 1;
-        int j = i++;
-        if( (i==++j) | (i++ == j) ){
-            i+=j;
-        }
-        System.out.println(i);
+        List<String> list = new ArrayList<>();
 
 
     }
