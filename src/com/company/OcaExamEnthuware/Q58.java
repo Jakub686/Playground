@@ -9,6 +9,7 @@ public class Q58 {
 
     public Q58() {
         System.out.println(this);// o co chodzi tutaj ze slowem this?
+
     }
 
 
