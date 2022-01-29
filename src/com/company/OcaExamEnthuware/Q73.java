@@ -5,7 +5,7 @@ public class Q73 {
 class D {}
 class D1 extends D {}
 class D2 extends D {}
-public class ExtendsTest{
+class ExtendsTesut{
     public static void main(String args[]){
         D d = new D();
         D1 d1 = new D1();
