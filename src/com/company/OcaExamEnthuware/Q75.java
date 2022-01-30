@@ -8,7 +8,7 @@ class Base{
     }
 }
 
-class Sub extends Base{
+class Subb extends Base{
     public void methodA(){
         System.out.println("sub - MethodA");
     }
@@ -16,7 +16,7 @@ class Sub extends Base{
         System.out.println("sub - MethodB");
     }
     public static void main(String args[]){
-        Base b = new Sub(); //1
+        Base b = new Subb(); //1
        // Sub s = new Base();
        // b.methodA(); //2
        // b.methodB(); //3
