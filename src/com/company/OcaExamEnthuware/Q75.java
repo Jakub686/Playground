@@ -17,8 +17,8 @@ class Subb extends Base{
     }
     public static void main(String args[]){
         Base b = new Subb(); //1
-       // Sub s = new Base();
-       // b.methodA(); //2
+
+       b.methodA(); //2
        // b.methodB(); //3
     }
 }
