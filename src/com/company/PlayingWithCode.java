@@ -4,12 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlayingWithCode {
-
-
     public static void main(String[] args) {
-        char i=0;
-        for (i=0;i<5;i++){
-            System.out.println();
+        List s1 = new ArrayList( );
+        try{
+            while(true){
+                s1.add("sdfa");
+            }
+        }catch(RuntimeException e){
+            e.printStackTrace();
         }
+        System.out.println(s1.size());
     }
+
 }
+
