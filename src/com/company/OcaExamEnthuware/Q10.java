@@ -1,5 +1,7 @@
 package com.company.OcaExamEnthuware;
 
+import com.company.zadaniarekrutacyjne.TestClass;
+
 public class Q10 {
 }
 
@@ -14,7 +16,7 @@ class TestClasssssssssssss{
         System.out.println("IOException Version");
     }
     public static void main(String args[]){
-        TestClass tc = new TestClass();
+        TestClasssssssssssss tc = new TestClasssssssssssss();
         //tc.method(null);
     }
 }
