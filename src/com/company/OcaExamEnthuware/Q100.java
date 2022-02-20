@@ -10,7 +10,7 @@ public class Q100 {
     public static void main(String[] args) {
         Q100 n = new Q100();
         int a = 'a';
-        char c = 6;
+        char c = '5';
         n.m(a);
         n.m(c);
     }
