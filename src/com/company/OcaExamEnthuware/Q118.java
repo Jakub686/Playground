@@ -1,9 +1,7 @@
-package com.company;
+package com.company.OcaExamEnthuware;
 
+public class Q118 {
 
-import com.company.zadaniarekrutacyjne.TestClass;
-
-public class PlayingWithCode {
 
     public static void main(String[] args) {
         int x = 1;
@@ -21,4 +19,3 @@ public class PlayingWithCode {
         }
     }
 }
-
