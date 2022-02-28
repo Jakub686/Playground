@@ -12,4 +12,7 @@ public class Q116 {
     static {
         System.out.println(2);
     }
+
+    //static System.out.println(2);
+
 }
