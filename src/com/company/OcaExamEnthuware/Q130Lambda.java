@@ -12,8 +12,9 @@ public class Q130Lambda {
 
         shoppinglist.forEach((n)-> System.out.println(n));
         /*
-        Interface funkcyjny (funkcja ktore nie nalezy do klasy, funkcja ktora moze byc stosowane jako wartosc zmiennej)
-        parameter list - > body funcion
+        Zapewnia implementacje interfacu funkcyjnego
+        Jedno argumentowy interface funkcyjny (funkcja ktore nie nalezy do klasy, funkcja ktora moze byc stosowane jako wartosc zmiennej)
+        parameter list -> body funcion
         usuwamy z metody:
         - modifiers
         - name

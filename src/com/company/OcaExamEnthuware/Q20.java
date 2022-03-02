@@ -5,26 +5,17 @@ public class Q20 {
 
 // Najpierw wykonują się metody statyczne pozniej main?
 class InitTest {
-    public static void main(String args[]) {
-        InitTest it = new InitTest();
-    }
-
-    static String s1;
-
-    {  // o co chodzi z tymi nawiasami
+    static String s1 = sM1("a");
+    {
         s1 = sM1("b");
     }
-
-    static {
+    static{
         s1 = sM1("c");
     }
-
-    public InitTest() {
-        System.out.println("constructor");
+    public static void main(String args[]){
+        InitTest it = new InitTest();
     }
-
-    private static String sM1(String s) {
-        System.out.println(s);
-        return s;
+    private static String sM1(String s){
+        System.out.println(s);  return s;
     }
 }
