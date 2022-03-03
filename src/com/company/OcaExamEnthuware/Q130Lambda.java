@@ -13,6 +13,7 @@ public class Q130Lambda {
         shoppinglist.forEach((n)-> System.out.println(n));
         /*
         Zapewnia implementacje interfacu funkcyjnego
+        Interface fukcyjny posiada tylko jedna metoda abstrakcyjną
         Jedno argumentowy interface funkcyjny (funkcja ktore nie nalezy do klasy, funkcja ktora moze byc stosowane jako wartosc zmiennej)
         parameter list -> body funcion
         usuwamy z metody:
