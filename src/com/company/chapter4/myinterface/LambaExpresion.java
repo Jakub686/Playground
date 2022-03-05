@@ -18,7 +18,7 @@ public class LambaExpresion {
         String name = "Bro";
         char symbol = '!';
 
-        MyInteface myInterface = (x,y) -> {
+        MyInter_face myInterface = (x,y) -> {
             System.out.println("Hello World");
             System.out.println("It is a nice day " + x + y);
         };
