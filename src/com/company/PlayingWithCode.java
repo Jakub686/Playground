@@ -9,11 +9,9 @@ public class PlayingWithCode {
 
 
     public static void main(String[] args) {
-        LocalDate date = LocalDate.parse("2000-06-25");
-        while (date.getDayOfMonth() >= 20) {
-            System.out.println(date);
-            date.plusDays(-1);
-        }
+        String string ="-1312";
+        int count = string.length() - string.replaceAll("2"," ").length();
+        System.out.println(count);
 
 
     }
