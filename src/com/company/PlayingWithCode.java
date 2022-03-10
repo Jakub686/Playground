@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PlayingWithCode {
     public static void main(String[] args) {
-        int[] a = {2, 1, 2, 3, 3, 5, 5, 1, 2, 4, 4, 20, 20, -10};
+        int[] a = {2,2, -10};
         int[][] c = new int[a.length][2];
         int[] b = new int[200];
         for(int i = 0; i<a.length;i++){
@@ -14,10 +14,12 @@ public class PlayingWithCode {
         for (int i = -100; i <= 99; i++) { //zakres
             b[i + 100] = i;
         }
+        // zakres b[]
         for (int i = 0; i <= 200; i++){
-            for (int j = 0; j == a.length-1; j++) {
-                if (b[i] == a [j]){
-                    c[j][1]++;
+            for (int j = 0; j < a.length-1; j++) {
+                //System.out.println(b[i] + " " + a[j]);
+                if (b[i] == a[j]){
+                    c[j][1]=1;
                 }
             }
         }
