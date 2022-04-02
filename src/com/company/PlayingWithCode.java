@@ -9,7 +9,10 @@ public class PlayingWithCode {
         long LONG = 'A';
         float FLOAT = 'A';
         double DOUBLE = 'A';
-        char CHAR = "a";
+        char CHAR = 'a';
+        //short s = c;
+        char c = 'a';
+        INT = CHAR;
 
 
 
