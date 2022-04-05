@@ -1,9 +1,15 @@
 package com.company;
 
 
+import java.time.LocalDate;
+
 public class PlayingWithCode {
     public static void main(String args[]) {
-        String s = "10"+10; System.out.print(s);
+        int a[][] = new int[3][];
+        a[1] = new int[]{1,2,3};
+        a[2] = new int[]{4,5};
+        System.out.println(a[1][1]);
+
     }
 }
 
