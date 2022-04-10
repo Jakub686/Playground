@@ -2,13 +2,38 @@ package com.company;
 
 
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class PlayingWithCode {
     public static void main(String args[]) {
-        int a[][] = new int[3][];
-        a[1] = new int[]{1,2,3};
-        a[2] = new int[]{4,5};
-        System.out.println(a[1][1]);
+        int[][] field = {
+                {1, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {0, 0, 0, 1, 0, 0, 0, 1, 0, 0},
+                {1, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+                {0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
+                {0, 1, 0, 0, 1, 0, 0, 1, 0, 1},
+                {0, 0, 0, 0, 1, 0, 0, 1, 0, 1},
+                {0, 0, 0, 0, 0, 0, 0, 1, 0, 0}
+        };
+        int[][] fielda = {
+                {1, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {0, 0, 0, 1, 0, 0, 0, 1, 0, 0},
+                {1, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+                {0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
+                {0, 1, 0, 0, 1, 0, 0, 1, 0, 1},
+                {0, 0, 0, 0, 1, 0, 0, 1, 0, 1},
+                {0, 0, 0, 0, 0, 0, 0, 1, 0, 0}
+        };
+        System.out.println(Arrays.equals(field,fielda));
+        System.out.println((-5) * (-10) * (-20));
 
     }
 }
