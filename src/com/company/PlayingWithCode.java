@@ -1,22 +1,22 @@
 package com.company;
 
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Scanner;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class PlayingWithCode {
-    public static void main(String args[]) {
-        NumberFormat formatter  = new DecimalFormat("0.00");
-        int ticketPurchasedNumber = 1;
-        int row = 6;
-        int seats = 6;
-        double a = ((double) ticketPurchasedNumber*100/(row*seats));
-        System.out.println(formatter.format(a)+ "%" );
+
+    public static final String DEFAULT_APPLICATION_NAME = "MyDemoApp";
+    public static final int MAX_IMAGE_SIZE_KB = 4096;
+
+
+    public static void main(String args[]) throws IOException {
+        File file = new File("D:\\file.txt");
+        FileWriter writer = new FileWriter(file,true); // overwrites the file
+
+        writer.write("Hello, World\n");
+        writer.close();
 
     }
 }
-
