@@ -2,18 +2,18 @@ package com.company;
 
 public class BattleshipShipsLoop {
     public static void main(String[] args) {
-        int row = 0;
-        int column = 0;
-        int[] ship2Five = new int[9];
 
-        for(int i =0,j=1; i<10 ;i=i+2,j=j+2){
+        int[] shipFive = new int[10];
 
-                ship2Five[i] = 0;
-                int x= i+1;
-                ship2Five[x] = 0;
-
-
-
+        int[] coordinates = {0,1,0,1,0,1,0,1,2,3};
+        for(int i =0; i<=9 ; i++){
+            shipFive[i]=coordinates[i];
+            if(i==3)
+                shipFive[i]=coordinates[i]+1;
+            if(i==5)
+                shipFive[i]=coordinates[i]+2;
+            if(i==7)
+                shipFive[i]=coordinates[i]+3;
         }
     }
 }
