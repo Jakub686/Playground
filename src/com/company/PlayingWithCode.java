@@ -13,6 +13,7 @@ public class PlayingWithCode {
 
         ArrayList arrayList = new ArrayList();
         arrayList.add("2");
+        arrayList.add("aaa");
 
 
 
