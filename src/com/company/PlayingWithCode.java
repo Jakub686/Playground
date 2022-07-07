@@ -22,7 +22,6 @@ public class PlayingWithCode {
         show(arrayList1);
         show(arrayList2);
 
-
     }
 
     public static void show(ArrayList arrayList){
